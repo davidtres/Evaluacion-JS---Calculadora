@@ -31,6 +31,12 @@ body{
   background-repeat: repeat;
   text-align: right;
   margin-top: 39px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: '';
+  border: 1px solid;
+
+  
 }
 .teclado{
   display: flex;
@@ -50,7 +56,9 @@ body{
 }
 #display{
   font-family: digital;
-  font-size: 5em;
+  font-size: 5em;  
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .row{
   width: 100%;
@@ -158,8 +166,8 @@ body{
   font-size: 1.1rem;
 }
 
-div img:hover {
-transform: scale(0.98);
+div img:active {
+transform: scale(0.97);
 }
 @media (max-width: 1000px){
 
